@@ -1,0 +1,53 @@
+.container {
+    margin-top: 25px;
+
+    .filter {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2.5px;
+
+        form {
+            input[type="text"] {
+                margin-left: 2.5px;
+            }
+        }
+    }
+
+    thead {
+        background-color: #ddd;
+
+        th.adress {
+            width: 360px
+        }
+
+        th.thead {
+            position: relative;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 25%;
+                width: 20px;
+                position: absolute;
+                top: 50%;
+                right: 30px;
+                transform: translateY(-50%);
+
+                img {
+                    height: 15px;
+                    width: 15px;
+                    cursor: pointer;
+                    padding: 1.5px;
+
+                    &:hover {
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -4,23 +4,21 @@ import styles from './ListElement.module.scss';
 const ListElement = ({ text, remove, setData }) => {
     const [disable, setDisabled] = useState(false);
 
-    const removeItem = (e) => {
-        let adress = e.target.nextElementSibling.textContent;
-        setData(prevArray => prevArray.filter(item => item.adress !== adress));
-        remove(prevArray => prevArray.filter(item => item !== adress));
+    const removeItem = () => {
+        setData(prevArray => prevArray.filter(item => item.adress !== text));
+        remove(prevArray => prevArray.filter(item => item !== text));
     }
-    const generate = (e) => {
-        let adress = e.target.previousElementSibling.textContent;
+    const generate = () => {
         let url = 'https://api.trongrid.io/wallet/getaccount';
         let options = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: `{"address":"${adress}", "visible": true}`
+            body: `{"address":"${text}", "visible": true}`
         };
         fetch(url, options)
             .then(res => res.json())
             .then(({ balance, create_time, latest_opration_time }) => {
-                setData(prevArray => [...prevArray, { adress, balance, create_time, latest_opration_time }]);
+                setData(prevArray => [...prevArray, { adress: text, balance, create_time, latest_opration_time }]);
                 setDisabled(true);
             })
             .catch(err => console.error('error:' + err));

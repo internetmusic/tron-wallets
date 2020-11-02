@@ -12,8 +12,8 @@ function App() {
   return (
     <div className={styles.container}>
       <Form add={setAdress} adresses={adresses} />
-      <List list={adresses} remove={setAdress} setData={setData} />
-      <Table data={data} />
+      <List list={adresses} remove={setAdress} setData={setData} data={data} />
+      <Table data={data} setData={setData} setAdress={setAdress} adresses={adresses} />
     </div>
   );
 }
