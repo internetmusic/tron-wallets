@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className={styles.container}>
-      <Form add={setAdress} />
+      <Form add={setAdress} adresses={adresses} />
       <List list={adresses} remove={setAdress} />
     </div>
   );

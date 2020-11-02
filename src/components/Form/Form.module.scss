@@ -12,6 +12,16 @@
     margin-top: 25px;
     border-radius: 7.5px;
 
+    p {
+        text-align: center;
+        font-weight: 800;
+        color: #ff0000;
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 10px
+    }
+
     label {
         margin-right: 5px;
     }

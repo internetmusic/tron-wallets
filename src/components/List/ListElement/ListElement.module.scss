@@ -19,10 +19,13 @@
     .btn {
         height: 30px;
         width: 100px;
-        background-image: url('../../../assets/remove.svg');
-        background-repeat: no-repeat;
-        width: 30px;
-        border: none;
         cursor: pointer;
+
+        &:first-of-type {
+            background-image: url('../../../assets/remove.svg');
+            background-repeat: no-repeat;
+            width: 30px;
+            border: none;
+        }
     }
 }
