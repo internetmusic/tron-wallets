@@ -1,0 +1,28 @@
+.item {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 7.5px;
+    margin-bottom: 7.5px;
+    list-style-type: none;
+
+    &:first-of-type {
+        margin-top: 7.5px;
+    }
+
+    p {
+        width: 400px;
+    }
+
+    .btn {
+        height: 30px;
+        width: 100px;
+        background-image: url('../../../assets/remove.svg');
+        background-repeat: no-repeat;
+        width: 30px;
+        border: none;
+        cursor: pointer;
+    }
+}
