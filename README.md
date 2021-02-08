@@ -1,6 +1,6 @@
 <h1>TRON Wallets</h1>
 
-<p>An application for displaying a random amount of TRON wallets. Project usage API TronGrid.io</p>
+<p>An application for displaying data of TRON wallets. Project based on React and API TronGrid.io</p>
 
 <h2>Features:</h2>
 <ul>
@@ -12,7 +12,7 @@
 
 <h2>Running Frontend side locally</h2>
 <ol>
-    <li>Install packages</li>
+    <li>Install packages</li>s
     <p>run <code>npm install</code></p>
     <li>Run project</li>
     <p>run <code>npm start</code></p>
@@ -20,11 +20,11 @@
     <p>go to <a href="http://localhost:3000">http://localhost:3000</a></p>
 </ol>
 
-<h3>List of addresses to test</h3>
-<ol>
+<h3>List of wallets addresses to test</h3>
+<ul>
     <li>TGmcz6UMqeTUoNryw4LcPeTWmo1DWrxRUK</li>
     <li>TSFKJsiJrt6bUTmxS1F1Fmv6UUYdGVB9Ws</li>
     <li>TN1nWMYqhnqrBXPMH1ECYouVaafRkYxhNb</li>
     <li>TCFQhzJgXJnn56sqJV38H8c5YAwELZugvz</li>
     <li>TUv34RrPNY2qTNHZ9q4mLc9AuUu9Tpy3Jg</li>
-</ol>
+</ul>
