@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tron-wallets/static/css/main.ecfab8d4.chunk.css",
+    "main.js": "/tron-wallets/static/js/main.6a0f3504.chunk.js",
+    "main.js.map": "/tron-wallets/static/js/main.6a0f3504.chunk.js.map",
+    "runtime-main.js": "/tron-wallets/static/js/runtime-main.3aee2401.js",
+    "runtime-main.js.map": "/tron-wallets/static/js/runtime-main.3aee2401.js.map",
+    "static/js/2.4882f33c.chunk.js": "/tron-wallets/static/js/2.4882f33c.chunk.js",
+    "static/js/2.4882f33c.chunk.js.map": "/tron-wallets/static/js/2.4882f33c.chunk.js.map",
+    "index.html": "/tron-wallets/index.html",
+    "static/css/main.ecfab8d4.chunk.css.map": "/tron-wallets/static/css/main.ecfab8d4.chunk.css.map",
+    "static/js/2.4882f33c.chunk.js.LICENSE.txt": "/tron-wallets/static/js/2.4882f33c.chunk.js.LICENSE.txt",
+    "static/media/down.b6fef615.svg": "/tron-wallets/static/media/down.b6fef615.svg",
+    "static/media/ListElement.module.scss": "/tron-wallets/static/media/remove.3903b594.svg",
+    "static/media/up.f70b4b62.svg": "/tron-wallets/static/media/up.f70b4b62.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3aee2401.js",
+    "static/js/2.4882f33c.chunk.js",
+    "static/css/main.ecfab8d4.chunk.css",
+    "static/js/main.6a0f3504.chunk.js"
+  ]
+}
